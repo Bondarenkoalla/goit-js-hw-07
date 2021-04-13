@@ -6,6 +6,6 @@ input.addEventListener('input', changeInput);
 function changeInput(event) {
   nameOutput.textContent = event.currentTarget.value;
   if (event.currentTarget.value === '') {
-    nameOutput = 'незнакомец';
+    nameOutput.textContent = 'незнакомец';
   }
 }
